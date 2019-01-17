@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 阴影部分 最下面一层 -->
+    <!-- 这个就是阴影 -->
+    <item >
+        <shape android:shape="rectangle" >
+            <!--<gradient-->
+                <!--android:angle="90"-->
+                <!--android:endColor="#777777"-->
+                <!--android:startColor="#C5C5C5" />-->
+            <solid android:color="#c5c5c5"/>
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <!-- 背景部分 -->
+    <!-- 形象的表达：bottom left ... 类似于设置 margin -->
+    <item>
+        <selector>
+            <!--<item-->
+                <!--android:state_focused="false"-->
+                <!--android:state_pressed="true">-->
+                <!--<shape android:shape="rectangle" >-->
+                    <!--<solid android:color="@android:color/darker_gray"/>-->
+                    <!--<corners android:radius="10dp" />-->
+                <!--</shape>-->
+            <!--</item>-->
+            <!-- 这个就是按钮上面的底色了 -->
+            <item>
+                <shape android:shape="rectangle" >
+                    <solid android:color="@android:color/white"/>
+                    <corners android:radius="10dp" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

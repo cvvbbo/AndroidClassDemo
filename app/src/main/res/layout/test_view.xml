@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+
+    <data>
+        <variable
+            name="me"
+            type="demo.androidclassic.com.androidclassicdemo.mvvm.MyMode">
+        </variable>
+
+
+    </data>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="20sp"
+        android:text="@{me.gettv1}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:textSize="20sp"
+        android:text="@{me.gettv2}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</layout>

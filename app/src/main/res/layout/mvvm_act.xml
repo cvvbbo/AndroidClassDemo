@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <data>
+        
+        <!--<import type="demo.androidclassic.com.androidclassicdemo.mvvm.userbean"/>-->
+
+
+        前一个 name 名字随便取 ，后一个type一定要是在类中存在的
+        就像安卓7.0中取别名是一样的
+        // 如果不要上面的import的话，那么下面的type要写全路径
+        <variable
+            name="user1111"
+            type="demo.androidclassic.com.androidclassicdemo.mvvm.userbean"></variable>
+
+        
+    </data>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@{user1111.firstName}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="@{user1111.lastName}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+
+</layout>

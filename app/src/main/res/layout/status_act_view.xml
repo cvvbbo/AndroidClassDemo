@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:padding="10dp"
+        android:background="@drawable/button_shape"
+        android:textSize="18sp"
+        android:text="hahahahaha"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:elevation="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_shape"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+
+
+
+    <TextView
+        android:elevation="20dp"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text="hahahahaha"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+
+
+    <TextView
+        android:onClick="haha"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text="hahahahaha"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+
+
+
+
+    <demo.androidclassic.com.androidclassicdemo.View.CustomView
+        android:id="@+id/R.id.customview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+</LinearLayout>
